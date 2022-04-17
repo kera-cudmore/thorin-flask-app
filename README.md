@@ -14,10 +14,11 @@ Thorin Flask App was created as part of a flask walkthough project on the Code I
   * [Languages Used](#Languages-Used)
   * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
 * [Local Development](#Local-Development)
-    * [How to Fork](#How-to-Fork)
+  * [How to Fork](#How-to-Fork)
     * [How to Clone](#How-to-Clone)
 * [Testing](#Testing)
 * [Credits](#Credits)
+  * [Media](#Media)
 
 - - -
 
@@ -41,11 +42,12 @@ Thorin Flask App was created as part of a flask walkthough project on the Code I
 * [Shields.io](https://shields.io/) To add badges to the README.
 
 * [Flask](https://flask.palletsprojects.com/en/2.1.x/)
+
 - - -
 
 ## Local Development
 
-#### How to Fork
+### How to Fork
 
 To fork the repository:
 
@@ -53,7 +55,7 @@ To fork the repository:
 2. Go to the repository for this project, [Thorin Flask App Repo](https://github.com/kera-cudmore/thorin-flask-app).
 3. Click the Fork button in the top right corner.
 
-#### How to Clone
+### How to Clone
 
 To clone the repository:
 
@@ -74,3 +76,7 @@ Testing was carried out throughout the build of the project
 ## Credits
 
 * Code Institute modules on Flask.
+
+### Media
+
+* [Image of Thorin & Company](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fadc668e-5f6a-4648-9d27-e91eb6973da7/d5nay7b-9991c1db-0f4a-4f3f-a95a-0b53947a14f9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZhZGM2NjhlLTVmNmEtNDY0OC05ZDI3LWU5MWViNjk3M2RhN1wvZDVuYXk3Yi05OTkxYzFkYi0wZjRhLTRmM2YtYTk1YS0wYjUzOTQ3YTE0ZjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.eknvKAWOPVaW_j6s7cbG6EKi-TGwolEaaTetCmjNYUA) used for the page header image.
