@@ -7,6 +7,10 @@ Thorin Flask App was created as part of a flask walkthough project on the Code I
 ![GitHub language count](https://img.shields.io/github/languages/count/kera-cudmore/thorin-flask-app?color=orange&style=for-the-badge)
 ![GitHub top language](https://img.shields.io/github/languages/top/kera-cudmore/thorin-flask-app?style=for-the-badge)
 
+Place image of the site here
+
+[Visit the deployed site.](https://thorin-flask-app-walkthrough-1.herokuapp.com/)
+
 ## CONTENTS
 
 * [User Stories](#User-Stories)
