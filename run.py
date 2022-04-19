@@ -8,13 +8,22 @@ if os.path.exists("env.py"):
 app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY")
 
+
 @app.route("/")
 def index():
+    """
+    returns the index.html page
+    """
     return render_template("index.html")
 
 
 @app.route("/about")
 def about():
+    """
+    returns the about.html page
+    Creates a variable data with a blank list
+    opens read only the company.json data and adds this to the data variable
+    """
     data = []
     with open("data/company.json", "r") as json_data:
         data = json.load(json_data)
@@ -23,6 +32,9 @@ def about():
 
 @app.route("/about/<member_name>")
 def about_member(member_name):
+    """
+    returns the html page for the company member selected
+    """
     member = {}
     with open("data/company.json", "r") as json_data:
         data = json.load(json_data)
@@ -34,14 +46,22 @@ def about_member(member_name):
 
 @app.route("/contact", methods=["GET", "POST"])
 def contact():
+    """
+    returns the contact.html page
+    if the request method on the form is POST a flash message will be shown
+    when the form is submitted
+    """
     if request.method == "POST":
         flash("Thanks {}, we have received your message!".format(
-            request.form.get("name")))    
+            request.form.get("name")))
     return render_template("contact.html", page_title="Contact")
 
 
 @app.route("/careers")
 def careers():
+    """
+    returns the careers.html page
+    """
     return render_template("careers.html", page_title="Careers")
 
 
