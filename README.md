@@ -13,16 +13,16 @@ Place image of the site here
 
 ## CONTENTS
 
-* [User Stories](#User-Stories)
-* [Technologies Used](#Technologies-Used)
-  * [Languages Used](#Languages-Used)
+* [User Stories](#user-stories)
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-* [Local Development](#Local-Development)
-  * [How to Fork](#How-to-Fork)
-    * [How to Clone](#How-to-Clone)
-* [Testing](#Testing)
-* [Credits](#Credits)
-  * [Media](#Media)
+* [Local Development](#local-development)
+  * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+* [Testing](#testing)
+* [Credits](#credits)
+  * [Media](#media)
 
 - - -
 
