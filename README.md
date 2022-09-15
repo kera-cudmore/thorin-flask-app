@@ -16,7 +16,7 @@ Place image of the site here
 * [User Stories](#User-Stories)
 * [Technologies Used](#Technologies-Used)
   * [Languages Used](#Languages-Used)
-  * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 * [Local Development](#Local-Development)
   * [How to Fork](#How-to-Fork)
     * [How to Clone](#How-to-Clone)
