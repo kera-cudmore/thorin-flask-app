@@ -1,13 +1,13 @@
-# Thorin & Co.
+# Thorin & Co
 
-Thorin Flask App was created as part of a flask walkthough project on the Code Institutes Level 5 Diploma in Web Application Development.
+![Thorin Responsive Site Image](documentation/thorin-responsive.png)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/kera-cudmore/thorin-flask-app?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/thorin-flask-app?color=yellow&style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/kera-cudmore/thorin-flask-app?color=orange&style=for-the-badge)
 ![GitHub top language](https://img.shields.io/github/languages/top/kera-cudmore/thorin-flask-app?style=for-the-badge)
 
-Place image of the site here
+Thorin Flask App was created as part of a flask walkthough project on the Code Institutes Level 5 Diploma in Web Application Development.
 
 [Visit the deployed site.](https://thorin-flask-app-walkthrough-1.herokuapp.com/)
 

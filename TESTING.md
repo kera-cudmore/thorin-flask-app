@@ -1,6 +1,6 @@
 # Thorin & Co. - Testing
 
-responsive image to go here
+![Thorin Responsive Site Image](documentation/thorin-responsive.png)
 
 Visit the deployed site: [Thorin & Co.](https://thorin-flask-app-walkthrough-1.herokuapp.com/)
 
