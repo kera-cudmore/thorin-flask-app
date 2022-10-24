@@ -33,13 +33,21 @@ Visit the deployed site: [Thorin & Co.](https://thorin-flask-app-walkthrough-1.h
 [contact.html]()
 [member.html]()
 
+No custom CSS was used for this project.
+
 ### JavaScript Validation
 
 No custom JavaScript was used for this project.
 
 ### Python Validation
 
-run.py - 
+As my usual python validating site (PEP8online) is currently down, I have used the Python package [pycodestyle](https://pypi.org/project/pycodestyle/) to check for any PEP8 errors in my code in my IDE.
+
+run.py - Pycode style has raised the following issues:
+
+* env is imported but not used - I believe this error is fine to ignore as env will not be used while in a development environment, however heroku will use the env for deployment.
+* Using open without explicitly specifying an encoding. This warning is on lines 29 and 40, where the member JSON is being read. I will need to look further into this issue of specifying an encoding.
+* Formatting a regular string which could be a f-string. This warning is on line 56, and is where the name is inserted into the success message when the form is submitted. I will do some further research into f-strings.
 
 ### Lighthouse Validation
 
