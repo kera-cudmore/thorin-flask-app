@@ -1,4 +1,4 @@
-# Thorin Flask App Walkthrough Project
+# Thorin & Co.
 
 Thorin Flask App was created as part of a flask walkthough project on the Code Institutes Level 5 Diploma in Web Application Development.
 
@@ -41,13 +41,15 @@ Place image of the site here
 
 ### Frameworks, Libraries & Programs Used
 
-* Git - For version control.
+* [Git](https://git-scm.com/) - For version control.
 
-* Github - To save and store the files for the website.
+* [Github](https://github.com/) - To save and store the files for the website.
 
 * [Shields.io](https://shields.io/) To add badges to the README.
 
 * [Flask](https://flask.palletsprojects.com/en/2.1.x/)
+
+* [Jinja](https://jinja.palletsprojects.com/en/3.1.x/) - A templating language
 
 - - -
 
@@ -121,7 +123,7 @@ To clone the repository:
 
 ## Testing
 
-Testing was carried out throughout the build of the project
+Testing was carried out throughout the build of the project. Please see the [testing file](TESTING.md) for more information.
 
 - - -
 
