@@ -14,6 +14,11 @@ Thorin Flask App was created as part of a flask walkthough project on the Code I
 ## CONTENTS
 
 * [User Stories](#user-stories)
+* [Design](#design)
+* [Features](#features)
+  * [General Features of the site](#general-features-of-the-site)
+  * [Future Implementations](#future-implementations)
+  * [Accessibility](#accessibility)
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
@@ -34,6 +39,46 @@ Thorin Flask App was created as part of a flask walkthough project on the Code I
 * I want to be able to contact the Company.
 * I want to be able to read some interesting articles relating to the Company.
 * I want to be able to see any job positions within the Company.
+
+- - -
+
+## Design
+
+This site uses the bootstrap clean blog template, this was chosen so that students could concentrate on using Flask and Jinja templating.
+- - -
+
+## Features
+
+### General Features of the site
+
+Each page of the site features a:
+
+* Favicon
+
+  ![Favicon image](documentation/favicon.png)
+
+* Navbar (including responsive mobile navigation which utilises a hamburger menu)
+
+  ![Navbar image](documentation/navbar.png)
+
+  ![Mobile Navbar image](documentation/navbar-mobile.png)
+
+* Footer
+
+![Footer image](documentation/footer.png)
+
+### Future Implementations
+
+In a future implementation I would like to add further information to the site, such as battle stats etc for each member of the company. I would also like to improve on the blog functionality, as currently there are only 4 articles on the home page.
+
+### Accessibility
+
+I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
+
+* Using semantic HTML.
+* Using descriptive alt attributes on images on the site.
+* Providing information for screen readers where there are icons used and no text.
+* Ensuring that there is a sufficient colour contrast throughout the site.
 
 - - -
 
