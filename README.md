@@ -30,6 +30,11 @@ Place image of the site here
 
 ## User Stories
 
+* I want to be able to find out more information about Thorin and his Company.
+* I want to be able to contact the Company.
+* I want to be able to read some interesting articles relating to the Company.
+* I want to be able to see any job positions within the Company.
+
 - - -
 
 ## Technologies Used
