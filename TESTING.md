@@ -73,7 +73,11 @@ member.html
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | :--- | :--- | :--- | :--- | :--- |
 | Navbar |
-| | | | | |
+| Thorin & Company Logo | When clicked the user will be taken to the home page | Link clicked | Taken to the home page | Pass |
+| Home Link | When clicked the user will be taken to the home page | Link clicked | Taken to the home page | Pass |
+| About Link | When clicked the user will be taken to the about page | Link clicked | Taken to the about page| Pass |
+| Contact Us Link | When clicked the user will be taken to the contact us page | Link clicked | Taken to the contact us page| Pass |
+| Careers Link | When clicked the user will be taken to the careers page | Link clicked | Taken to the careers page | Pass |
 | Home Page |
 | | | | | |
 
