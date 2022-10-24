@@ -25,13 +25,13 @@
                         <p>{{ member.description }}</p>
                     </div>
                     <div class="col-md-5">
-                        <img src="{{ member.image_source }}" alt="" class="img-fluid">
+                        <img src="{{ member.image_source }}" alt="Profile image for {{member.name }}" class="img-fluid">
                     </div>
 
                 {% else %}
 
                     <div class="col-md-5">
-                        <img src="{{ member.image_source }}" alt="" class="img-fluid">
+                        <img src="{{ member.image_source }}" alt="Profile image for {{ member.name }}" class="img-fluid">
                     </div>
                     <div class="col-md-7">
                         <h3>
