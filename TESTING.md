@@ -97,4 +97,12 @@ member.html
 
 ### Solved Bugs
 
+| No. | Bug | How I solved the issue |
+| :--- | :--- | :--- |
+| 1 | The images on the members page were not responsive and were overflowing out of their column. | Initially I had the classes featurette-img and responsive-img on the images, however it seems that these bootstrap classes are no longer used. I therefore looked at the bootstrap documentation and found the img-fluid class, which allowed me to achieve the image responsiveness. |
+
 ### Known Bugs
+
+| No. | Bug |
+| :--- | :--- |
+| 1 | Form success message is being displayed even if the form is not filled in. Some fields are required so the form should be prompting users to fill in the required fields. The form currently has the required attribute on the required inputs, however some further research of the bootstrap documentation will be needed to see if there is an alternative way to achieve this as I am using bootstraps form group. |
