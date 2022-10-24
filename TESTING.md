@@ -72,20 +72,24 @@ member.html
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | :--- | :--- | :--- | :--- | :--- |
-| **NAVBAR** |
+| **Navbar** |
 | Thorin & Company Logo | When clicked the user will be taken to the home page | Link clicked | Taken to the home page | Pass |
 | Home Link | When clicked the user will be taken to the home page | Link clicked | Taken to the home page | Pass |
 | About Link | When clicked the user will be taken to the about page | Link clicked | Taken to the about page| Pass |
 | Contact Us Link | When clicked the user will be taken to the contact us page | Link clicked | Taken to the contact us page| Pass |
 | Careers Link | When clicked the user will be taken to the careers page | Link clicked | Taken to the careers page | Pass |
-| **FOOTER** |
+| **Footer** |
 | Twitter Icon | When clicked the user is taken to Thorin and Company's page on Twitter in a new browser window | Clicked icon | New browser window opened with Thorin and Company's twitter page | Pass |
 | Facebook Icon | When clicked the user is taken to Thorin and Company's page on Facebook in a new browser window | Clicked icon | New browser window opened with Thorin and Company's facebook page | Pass |
 | GitHub Icon | When clicked the user is taken to Kera Cudmores GitHub profile in a new browser window | Clicked icon | New browser window opened with Kera Cudmores GitHub profile | Pass |
-| **HOME PAGE** |
+| **Home Page** |
 | Post links | Clicking on a post takes me to the site for that article in a new browser window | Clicked post link | A new browser window opened with the article | Pass |
 | Older posts button | Loads older posts | clicked button | Page refreshed - This is due to there not being enough posts to check this feature works as it should, more posts would need to be added to check this works as it should | PENDING |
-
+| **About Page**|
+| Members Name | Clicking on the members name takes you to the members page with further information on them | Clicked member name | Taken to the members page with further information on them | Pass |
+| **Contact Us Page**|
+| Submit Button - Form not filled out | The user should be prompted to fill in the missing required fields | left form empty and clicked send | Success message displayed | Fail - Added to bugs section |
+| Submit Button - Form filled out | A success message is displayed to the user to let them know the form has been sent, with their name inserted | Completed form and clicked send | Success message displayed with the name filled out in the name field used | Pass |
 
 ---
 
