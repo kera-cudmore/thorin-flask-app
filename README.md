@@ -87,6 +87,8 @@ I have been mindful during coding to ensure that the website is as accessible fr
 ### Languages Used
 
 * HTML
+* CSS
+* JavaScript
 * Python3
 
 ### Frameworks, Libraries & Programs Used
@@ -97,10 +99,13 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
 * [Shields.io](https://shields.io/) To add badges to the README.
 
-* [Flask](https://flask.palletsprojects.com/en/2.1.x/)
+* [Flask](https://flask.palletsprojects.com/en/2.1.x/) Version 2.2.2
 
 * [Jinja](https://jinja.palletsprojects.com/en/3.1.x/) - A templating language
 
+* [Bootstrap Clean Blog Template](https://startbootstrap.com/theme/clean-blog) Version 5.0.10
+
+* [Font Awesome](https://fontawesome.com/) Version 6.2.0
 - - -
 
 ## Deployment & Local Development
