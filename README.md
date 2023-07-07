@@ -92,6 +92,21 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
 ### Deployment
 
+This project was initially deployed using heroku, before being redeployed using railway.
+
+
+<details>
+<summary>Expand for Railway Deployment Instructions</summary>
+Since completing my diploma and due to Heroku removing their free tier in November 2022, I have migrated the deployment of this site to use railway.app. You can find instructions on how to migrate your app from Heroku to Railway in my [article here](https://www.codu.co/articles/migrating-your-heroku-app-to-railway-vf9p3kid).
+
+Note that you will also need to create a runtime.txt in your environment which contains the version of python you are using. You can find this out by typing python --version in the terminal, and entering the result into the runtime.txt folder like so:
+
+`Python -3.10.5`
+</details>
+
+<details>
+<summary>Expand for Heroku Deployment Instructions</summary>
+
 The site is deployed using Heroku. To deploy to Heroku:
 
 1. To successfully deploy on Heroku we first need to create some files: a requirements.txt file and a Procfile.
@@ -133,6 +148,7 @@ The site is deployed using Heroku. To deploy to Heroku:
 10. You're now ready to click the enable automatic deploys and create button. Heroku will start building the app.
 
 11. Click open app at the top of the screen and the Thorin application should now open in a new tab.
+</details>
 
 ### Local Development
 
