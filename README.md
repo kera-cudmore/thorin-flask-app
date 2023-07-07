@@ -11,27 +11,7 @@ Thorin Flask App was created as part of a flask walkthough project on the Code I
 
 [Visit the deployed site.](https://web-production-4cc5.up.railway.app/)
 
-## CONTENTS
-
-* [User Stories](#user-stories)
-* [Design](#design)
-* [Features](#features)
-  * [General Features of the site](#general-features-of-the-site)
-  * [Future Implementations](#future-implementations)
-  * [Accessibility](#accessibility)
-* [Technologies Used](#technologies-used)
-  * [Languages Used](#languages-used)
-  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-* [Deployment & Local Development](#deployment--local-development)
-  * [Deployment](#deployment)
-  * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
-* [Testing](#testing)
-* [Credits](#credits)
-  * [Media](#media)
-
-- - -
+---
 
 ## User Stories
 
