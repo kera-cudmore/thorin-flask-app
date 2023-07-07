@@ -1,8 +1,8 @@
 # Thorin & Co. - Testing
 
-![Thorin Responsive Site Image](documentation/thorin-responsive.png)
-
 Visit the deployed site: [Thorin & Co.](https://web-production-4cc5.up.railway.app/)
+
+![Thorin Responsive Site Image](documentation/thorin-responsive.png)
 
 ---
 
@@ -10,13 +10,13 @@ Visit the deployed site: [Thorin & Co.](https://web-production-4cc5.up.railway.a
 
 ### HTML & CSS Validation
 
-[index.html](documentation/testing/index-html-validation.png)
-[about.html](documentation/testing/about-html-validation.png)
-[careers.html](documentation/testing/careers-html-validation.png)
-[contact.html](documentation/testing/contact-html-validation.png)
-[member.html](documentation/testing/member-html-validation.png)
+* [index.html](documentation/testing/index-html-validation.png) - Pass
+* [about.html](documentation/testing/about-html-validation.png) - Pass
+* [careers.html](documentation/testing/careers-html-validation.png) - Pass
+* [contact.html](documentation/testing/contact-html-validation.png) - Pass
+* [member.html](documentation/testing/member-html-validation.png) - Pass
 
-No custom CSS was used for this project.
+No custom CSS was used for this project, as the bootstrap clean blog template was used.
 
 ### JavaScript Validation
 
@@ -26,15 +26,15 @@ No custom JavaScript was used for this project, as the bootstrap clean blog temp
 
 As my usual python validating site (PEP8online) is currently down, I have used the Python package [pycodestyle](https://pypi.org/project/pycodestyle/) to check for any PEP8 errors in my code in my IDE.
 
-run.py - Pycode style has raised the following issues:
+* run.py - Pycode style has raised the following issues:
 
-* env is imported but not used - I believe this error is fine to ignore as env will not be used while in a development environment, however heroku will use the env for deployment.
-* Using open without explicitly specifying an encoding. This warning is on lines 29 and 40, where the member JSON is being read. I will need to look further into this issue of specifying an encoding.
-* Formatting a regular string which could be a f-string. This warning is on line 56, and is where the name is inserted into the success message when the form is submitted. I will do some further research into f-strings.
+  * env is imported but not used - I believe this error is fine to ignore as env will not be used while in a development environment, however heroku will use the env for deployment.
+  * Using open without explicitly specifying an encoding. This warning is on lines 29 and 40, where the member JSON is being read. I will need to look further into this issue of specifying an encoding.
+  * Formatting a regular string which could be a f-string. This warning is on line 56, and is where the name is inserted into the success message when the form is submitted. I will do some further research into f-strings.
 
 #### Validation performed using Code Institute Pep8 Validators
 
-[run.py - No Errors](documentation/testing/python-validation.png)
+* [run.py](documentation/testing/python-validation.png) - No Errors
 
 ### Lighthouse Validation
 
@@ -44,11 +44,11 @@ run.py - Pycode style has raised the following issues:
 
 ### Wave Testing
 
-index.html
-about.html
-careers.html
-contact.html
-member.html
+index.html - No errors
+about.html - No errors
+careers.html - No errors
+contact.html - No errors
+member.html - No errors
 
 ---
 
@@ -58,10 +58,10 @@ member.html
 
 | User Story | How is this achieved? | Evidence |
 | :--- | :--- | :--- |
-| I want to be able to find out more information about Thorin and his Company. | There is an about link in the navigation that will take a user to more information about the Company. The User can also click on each member to be taken to their individual page with further information about that member. | |
-| I want to be able to contact the Company. | There is a contact us link in the navigation which takes the user to a form they can fill in to contact the Company. | |
-| I want to be able to read some interesting articles relating to the Company. | The home page has a number of articles relating to the Company and the Hobbit. | |
-| I want to be able to see any job positions within the Company. | There is a careers link in the navigation. This takes the user to a careers page where any job positions will be posted. | |
+| I want to be able to find out more information about Thorin and his Company. | There is an about link in the navigation that will take a user to more information about the Company. The User can also click on each member to be taken to their individual page with further information about that member. | ![user story 1](documentation/testing/us-1.png)|
+| I want to be able to contact the Company. | There is a contact us link in the navigation which takes the user to a form they can fill in to contact the Company. | ![user story 2](documentation/testing/us-2.png) |
+| I want to be able to read some interesting articles relating to the Company. | The home page has a number of articles relating to the Company and the Hobbit. | ![user story 3](documentation/testing/us-3.png) |
+| I want to be able to see any job positions within the Company. | There is a careers link in the navigation. This takes the user to a careers page where any job positions will be posted. | ![user story 4](documentation/testing/us-4.png) |
 
 ### Full Testing
 
@@ -95,6 +95,7 @@ member.html
 | No. | Bug | How I solved the issue |
 | :--- | :--- | :--- |
 | 1 | The images on the members page were not responsive and were overflowing out of their column. | Initially I had the classes featurette-img and responsive-img on the images, however it seems that these bootstrap classes are no longer used. I therefore looked at the bootstrap documentation and found the img-fluid class, which allowed me to achieve the image responsiveness. |
+| 2 | Wave testing showed error that there were missing form labels| This was an easy fix, I just had to add in the for attribute on the label to connect the label to the input. |
 
 ### Known Bugs
 
