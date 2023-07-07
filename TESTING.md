@@ -2,24 +2,7 @@
 
 ![Thorin Responsive Site Image](documentation/thorin-responsive.png)
 
-Visit the deployed site: [Thorin & Co.](https://thorin-flask-app-walkthrough-1.herokuapp.com/)
-
----
-
-## CONTENTS
-
-* [Automated Testing](#automated-testing)
-  * [HTML & CSS Validation](#html--css-validation)
-  * [JavaScript Validation](#javascript-validation)
-  * [Python Validation](#python-validation)
-  * [Lighthouse](#lighthouse-validation)
-  * [WAVE Testing](#wave-testing)
-* [Manual Testing](#manual-testing)
-  * [Testing User Stories](#testing-user-stories)
-  * [Full Testing](#full-testing)
-* [Bugs](#bugs)
-  * [Solved Bugs](#solved-bugs)
-  * [Known Bugs](#known-bugs)
+Visit the deployed site: [Thorin & Co.](https://web-production-4cc5.up.railway.app/)
 
 ---
 
@@ -27,17 +10,17 @@ Visit the deployed site: [Thorin & Co.](https://thorin-flask-app-walkthrough-1.h
 
 ### HTML & CSS Validation
 
-[index.html]()
-[about.html]()
-[careers.html]()
-[contact.html]()
-[member.html]()
+[index.html](documentation/testing/index-html-validation.png)
+[about.html](documentation/testing/about-html-validation.png)
+[careers.html](documentation/testing/careers-html-validation.png)
+[contact.html](documentation/testing/contact-html-validation.png)
+[member.html](documentation/testing/member-html-validation.png)
 
 No custom CSS was used for this project.
 
 ### JavaScript Validation
 
-No custom JavaScript was used for this project.
+No custom JavaScript was used for this project, as the bootstrap clean blog template was used.
 
 ### Python Validation
 
