@@ -9,7 +9,7 @@
 
 Thorin Flask App was created as part of a flask walkthough project on the Code Institutes Level 5 Diploma in Web Application Development.
 
-[Visit the deployed site.](https://thorin-flask-app-walkthrough-1.herokuapp.com/)
+[Visit the deployed site.](https://web-production-4cc5.up.railway.app/)
 
 ## CONTENTS
 
