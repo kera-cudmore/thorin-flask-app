@@ -47,6 +47,37 @@ Each page of the site features a:
 
 ![Footer image](documentation/footer.png)
 
+### Page Screenshots
+
+<details>
+<summary>Expand this view to see Page Screenshots</summary>
+
+#### Home Page 
+
+![Home Page Screenshot](documentation/home.png)
+
+### About Page
+
+![About Page Screenshot](documentation/about.jpg)
+
+### About Details Page
+
+![About Details Page Screenshot](documentation/about-detail.png)
+
+### Careers Page
+
+![Careers Page Screenshot](documentation/careers.png)
+
+### Contact Page
+
+![Contact Page Screenshot](documentation/contact.png)
+
+### 404 Page
+
+![404 Page Screenshot](documentation/404.png)
+
+</details>
+
 ### Future Implementations
 
 In a future implementation I would like to add further information to the site, such as battle stats etc for each member of the company. I would also like to improve on the blog functionality, as currently there are only 4 articles on the home page.
