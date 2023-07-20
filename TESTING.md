@@ -47,11 +47,11 @@ As my usual python validating site (PEP8online) is currently down, I have used t
 
 ### Wave Testing
 
-index.html - No errors
-about.html - No errors
-careers.html - No errors
-contact.html - No errors
-member.html - No errors
+* index.html - No errors
+* about.html - No errors
+* careers.html - No errors
+* contact.html - No errors
+* member.html - No errors
 
 ---
 
