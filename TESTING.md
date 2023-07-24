@@ -39,12 +39,6 @@ As my usual python validating site (PEP8online) is currently down, I have used t
 
 * [run.py](documentation/testing/python-validation.png) - No Errors
 
-### Lighthouse Validation
-
-#### Desktop Results
-
-#### Mobile Results
-
 ### Wave Testing
 
 * index.html - No errors
@@ -86,8 +80,8 @@ As my usual python validating site (PEP8online) is currently down, I have used t
 | **About Page**|
 | Members Name | Clicking on the members name takes you to the members page with further information on them | Clicked member name | Taken to the members page with further information on them | Pass |
 | **Contact Us Page**|
-| Submit Button - Form not filled out | The user should be prompted to fill in the missing required fields | left form empty and clicked send | Success message displayed | Fail - Added to bugs section |
-| Submit Button - Form filled out | A success message is displayed to the user to let them know the form has been sent, with their name inserted | Completed form and clicked send | Success message displayed with the name filled out in the name field used | Pass |
+| Submit Button - Form not filled out | The user should be prompted to fill in the missing required fields | left form empty and clicked send | Success message displayed | ~~Fail - Added to bugs section~~ Pass - see solved bug #3 |
+| Submit Button - Form filled out | A success message is displayed to the user to let them know the form has been sent, with their name inserted | Completed form and clicked send | Success message displayed with the name filled out in the name field used. *Note:* As this site was created for educational purposes to learn about using the Flask framework, the project has no backend and so the form is not sent or processed on the backend. | Pass |
 
 ---
 
