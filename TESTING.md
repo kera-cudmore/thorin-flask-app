@@ -99,9 +99,10 @@ As my usual python validating site (PEP8online) is currently down, I have used t
 | :--- | :--- | :--- |
 | 1 | The images on the members page were not responsive and were overflowing out of their column. | Initially I had the classes featurette-img and responsive-img on the images, however it seems that these bootstrap classes are no longer used. I therefore looked at the bootstrap documentation and found the img-fluid class, which allowed me to achieve the image responsiveness. |
 | 2 | Wave testing showed error that there were missing form labels| This was an easy fix, I just had to add in the for attribute on the label to connect the label to the input. |
+| 3 | Form success message is being displayed even if the form is not filled in. Some fields are required so the form should be prompting users to fill in the required fields. The form currently has the required attribute on the required inputs, however some further research of the bootstrap documentation will be needed to see if there is an alternative way to achieve this as I am using bootstraps form group. | Upon looking at the form tag I discoved that there was an attribute `novalidate`. By changing this to `validate` my form now works as expected, and prompts the user to fill in any required fields in the form before submission. |
 
 ### Known Bugs
 
 | No. | Bug |
 | :--- | :--- |
-| 1 | Form success message is being displayed even if the form is not filled in. Some fields are required so the form should be prompting users to fill in the required fields. The form currently has the required attribute on the required inputs, however some further research of the bootstrap documentation will be needed to see if there is an alternative way to achieve this as I am using bootstraps form group. |
+
